@@ -10,6 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "psy/psysh": "dev-master"
+        "psy/psysh": "dev-master",
+        "phpunit/phpunit": "~4.6@dev"
     }
 }
