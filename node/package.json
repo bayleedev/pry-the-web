@@ -4,11 +4,14 @@
   "description": "Taken from [exercism.io](http://exercism.io).",
   "main": "bob.js",
   "scripts": {
-    "test": "jasmine-node bob_test.spec.js"
+    "test": "./node_modules/.bin/jasmine-node bob_test.spec.js"
   },
   "author": "Blaine Schmeisser",
   "license": "MIT",
   "dependencies": {
     "pryjs": "0.0.8"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
   }
 }
