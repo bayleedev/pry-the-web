@@ -1,5 +1,7 @@
 ## Prying?
 
+Read the readme in each of the directories for more instructions on how to run the tests.
+
 * How is pry different then breakpoints?
 
 ## Tools
