@@ -5,6 +5,7 @@ function Bob() {
     if (message.replace(/\s+/, '').length === 0) {
       response = 'Fine. Be that way!';
     } else if (message.toUpperCase() === message) {
+      // pry.js created by blainesch - MIT
       // eval(pry.it) // play
       response = 'Whoa, chill out!';
     } else if (message.match(/\?$/)) {
