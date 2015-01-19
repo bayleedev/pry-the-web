@@ -18,8 +18,6 @@ He answers 'Whatever.' to anything else.
 ~~~
 npm install
 npm test
-
-jasmine-node bob_test.spec.js
 ~~~
 
 ## Halp
