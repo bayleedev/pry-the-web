@@ -10,7 +10,7 @@ class WordProblem {
 
   public function answer() {
     // Psysh created by Justin Hileman (bobthecow) MIT
-    eval(\Psy\sh()); // whereami, wtf
+    // eval(\Psy\sh()); // whereami, wtf
     $tree = $this->tree($this->_question());
     $transformer = new Transformer($tree);
     return $transformer->compute();
