@@ -1,0 +1,14 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Taken from [exercism.io](http://exercism.io).",
+  "main": "bob.js",
+  "scripts": {
+    "test": "jasmine-node bob_test.spec.js"
+  },
+  "author": "Blaine Schmeisser",
+  "license": "MIT",
+  "dependencies": {
+    "pryjs": "0.0.8"
+  }
+}

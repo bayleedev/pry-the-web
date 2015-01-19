@@ -1,0 +1,15 @@
+{
+    "name": "blainesch/pry-the-web",
+    "description": "Using pry in multiple langs.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Blaine Schmeisser",
+            "email": "blainesch@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "psy/psysh": "dev-master"
+    }
+}

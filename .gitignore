@@ -1,0 +1,4 @@
+php/vendor/*
+node/node_modules/*
+*.swo
+*.swp
