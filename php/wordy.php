@@ -9,8 +9,9 @@ class WordProblem {
   }
 
   public function answer() {
+    // Psysh created by Justin Hileman (bobthecow) MIT
+    eval(\Psy\sh()); // whereami, wtf
     $tree = $this->tree($this->_question());
-    eval(\Psy\sh());
     $transformer = new Transformer($tree);
     return $transformer->compute();
   }
@@ -70,8 +71,8 @@ class Transformer {
   }
 
   public function answer($branch) {
-    if (is_array($branch[0])) {
-      $branch[0] = $this->answer($branch[0]);
+    if (is_array($branch[2])) {
+      $branch[2] = $this->answer($branch[2]);
     }
     $operator = str_replace(' ', '_', $branch[1]);
     return $this->$operator($branch[0], $branch[2]);

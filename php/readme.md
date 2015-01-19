@@ -10,5 +10,5 @@ For example for the input `What is 5 plus 13?` you would return `18`.
 
 ~~~
 php composer.phar install
-phpunit
+phpunit ./word_test.php
 ~~~
